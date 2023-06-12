@@ -1,0 +1,25 @@
+{
+  "name": "sigma-with-leaflet-forked",
+  "version": "0.0.0",
+  "description": null,
+  "main": "index.js",
+  "scripts": {
+    "start": "kotatsu serve --typescript index.ts --public / ./public",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "0.23.1",
+    "leaflet": "^1.7.1",
+    "lodash": "4.17.21",
+    "sigma": "^2.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "kotatsu": "^0.22.3",
+    "typescript": "4.4.4"
+  },
+  "keywords": []
+}
